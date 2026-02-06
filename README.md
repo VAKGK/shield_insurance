@@ -35,10 +35,15 @@ The solution involves transforming raw daily transaction data into growth trends
 
 ```mermaid
 graph TD;
-    A["📂 Daily Insurance Data\n(Policies, Premiums)"] -->|Import| B{"⚙️ Power BI\nData Transformation"};
-    B -->|Time Intelligence| C["🗓️ Date Table & Period Analysis\n(MoM, DoD Logic)"];
-    C -->|DAX Measures| D["🧮 KPI Engine\n(RPM, CPM, DCG, DRG)"];
-    D -->|Visualization| E["🛡️ Shield Dashboard\nGrowth Monitor"];
+    A["📂 Daily Insurance Data 
+    (Policies, Premiums)"] -->|Import| B{"⚙️ Power BI 
+    Data Transformation"};
+    B -->|Time Intelligence| C["🗓️ Date Table & Period Analysis 
+    (MoM, DoD Logic)"];
+    C -->|DAX Measures| D["🧮 KPI Engine 
+    (RPM, CPM, DCG, DRG)"];
+    D -->|Visualization| E["🛡️ Shield Dashboard 
+    Growth Monitor"];
 
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style C fill:#bbf,stroke:#333,stroke-width:2px
